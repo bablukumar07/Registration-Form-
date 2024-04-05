@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- --------------------------------------- CAPTION Start ---------------------------------------------------- -->
+
+    <div class="caption">
+        <a href="#">
+            <h4>Student Registration Form</h4>
+        </a>
+    </div>
+    <!-- --------------------------------------- Form Start ---------------------------------------------------- -->
+
+    <div class="container">
+        <form action="">
+            <!-- --------------------------------------- First Name Input Start ---------------------------------------------------- -->
+            <div class="flex">
+                <div class="one"><label for="">First Name:</label></div>
+                <div class="two"><input type="text" placeholder="Enter your first Name" required></div>
+            </div>
+            <!-- --------------------------------------- Last Name Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Last Name:</label></div>
+                <div class="two"><input type="text" placeholder="Enter your Last Name" required></div>
+            </div>
+            <!-- --------------------------------------- Email Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Email:</label></div>
+                <div class="two"><input type="email" placeholder="it should contain @." required></div>
+            </div>
+            <!-- --------------------------------------- Mobile Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Mobile:</label></div>
+                <div class="two"><input type="number" placeholder="only 10 digites are allowed"></div>
+            </div>
+            <!-- --------------------------------------- Gender Input Start ---------------------------------------------------- -->
+
+            <div class="flex2">
+                <div class="one"><label for="">Gender:</label></div>
+                <div class="two">
+                    <input type="radio" value="Male" name="Gender"><label for="">Male</label>
+                    <input type="radio" value="Female" name="Gender"><label for="">Female</label>
+                </div>
+            </div>
+            <!-- --------------------------------------- DOB Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Date Of Birth:</label></div>
+                <div class="two"><input type="date"></div>
+            </div>
+            <!-- --------------------------------------- Textarea Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Address:</label></div>
+                <div class="two"><textarea name="" id="" cols="69" rows="10"></textarea></div>
+            </div>
+            <!-- --------------------------------------- City Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">City:</label></div>
+                <div class="two"><input type="text"></div>
+            </div>
+            <!-- --------------------------------------- Area PIN Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Area PIN:</label></div>
+                <div class="two"><input type="number"></div>
+            </div>
+            <!-- --------------------------------------- State Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">State:</label></div>
+                <div class="two"><input type="text"></div>
+            </div>
+            <!-- --------------------------------------- Qalification dropdown Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Qualification:</label></div>
+                <div class="two"><select name="" id="" class="select">
+                        <option value="Select Qualification">Select Qualification</option>
+                        <option value="BA">BA</option>
+                        <option value="MA">MA</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
+                    </select></div>
+            </div>
+            <!-- --------------------------------------- Checkbox Input Start ---------------------------------------------------- -->
+
+            <div class="flex2">
+                <div class="one"><label for="">Specialization:</label></div>
+                <div class="two">
+                    <input type="checkbox"><label for="">Computer Science</label><br>
+                    <input type="checkbox"><label for="">Informational Tecnology</label><br>
+                    <input type="checkbox"><label for="">Computer Architecture</label><br>
+                    <input type="checkbox"><label for="">Tele Communication</label><br>
+                </div>
+            </div>
+            <!-- --------------------------------------- Password Input Start ---------------------------------------------------- -->
+
+            <div class="flex">
+                <div class="one"><label for="">Password</label></div>
+                <div class="two"><input type="password"></div>
+            </div>
+
+            <!-- --------------------------------------- Button Input Start ---------------------------------------------------- -->
+            <div>
+                <button type="submit" class="btn">Registered</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
